@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body class="bg-light">
+    <div id="landingPage" class="container mt-5">
+        <div class="card p-4">
+            <h1 class="mb-4">Welcome to the Quiz App!</h1>
+            <div class="form-group">
+                <label for="userName">Enter your name:</label>
+                <input type="text" class="form-control" id="userName" placeholder="Your Name">
+            </div>
+            <button class="btn btn-primary mt-3" onclick="startQuiz()">Start Quiz</button>
+        </div>
+    </div>
+
+    <div id="quizPage" class="container mt-5">
+        <div class="card p-4">
+        <!-- Questions and options will be dynamically added here -->
+        </div>
+    </div>
+
+    <div id="resultPage" class="container mt-5">
+        <div class="card p-4">
+            <h1 class="mb-4">Quiz Results</h1>
+            <div id="quizResults"></div>
+            <h2 id="greetingMessage" class="mt-4"></h2>
+            <button onclick="refreshPage()" type="button" class="btn btn-link" >Start Again</button>
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS and Popper.js scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
