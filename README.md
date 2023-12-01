@@ -1,5 +1,5 @@
 # QuizApp
-- This is a simple Quiz App built using HTML, CSS, and JavaScript with Bootstrap for enhanced styling. The app allows users to take a quiz with shuffled questions and options, provides a 30-second timer for each question, and displays results at the end.
+This is a simple Quiz App built using HTML, CSS, and JavaScript with Bootstrap for enhanced styling. The app allows users to take a quiz with shuffled questions and options, provides a 30-second timer for each question, and displays results at the end.
 
 # Files
 - index.html: The main HTML file containing the structure of the quiz app.
